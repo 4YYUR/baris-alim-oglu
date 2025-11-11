@@ -40,16 +40,16 @@ $(document).ready(function () {
     responsiveWidth: 400,
     navigation: true,
     navigationTooltips: [
-      "LANDING",
-      "DIENSTLEISTUNGEN",
-      "KONTAKT",
-      "SOZIALE MEDIEN"
+      "home",
+      "dienste",
+      "kontakt",
+      "kontakt"
     ],
     anchors: [
-      "LANDING",
-      "DIENSTLEISTUNGEN",
-      "KONTAKT",
-      "SOZIALE MEDIEN"
+      "home",
+      "dienste",
+      "kontakt",
+      "kontakt"
     ],
     menu: "#myMenu",
     fitToSection: false,
