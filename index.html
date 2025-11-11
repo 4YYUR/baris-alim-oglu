@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+      <link rel="icon" type="image/x-icon" href="assets/img/fav.png">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <body>
+  <!-- navbar header -->
+  <div class="nav-header">
+    <div class="nav-brand">
+      <img src="assets/img/fav.png">
+    </div>
+    <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links" style="background-color: #060030;">
+      <ul>
+        <li data-menuanchor="fourthPage"><a href="#KONTAKT">KONTAKT</a></li>
+        <li data-menuanchor="secondPage"><a href="#DIENSTLEISTUNGEN">DIENSTLEISTUNGEN</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- end navbar header -->
+
+  <!-- sidebar slider -->
+  <div class="nav-screen" style="background-color: #060030;">
+    <i class="fa fa-times fa-3x"></i>
+    <div class="nav-container">
+      <div class="nav-links">
+        <ul id='myMenu'>
+          <li data-menuanchor="secondPage"><a href="#DIENSTLEISTUNGEN">DIENSTLEISTUNGEN</a></li>
+          <li data-menuanchor="fourthPage"><a href="#KONTAKT">KONTAKT</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- end navbar slider -->
+
+  <!-- begin fullpage -->
+
+  <div id="fullpage">
+
+    <!-- begin section -->
+
+    <div class="section aboutme" data-anchor="LANDING">
+      <div class="opaque-bg animated fadeInDown">
+        <h1 style="color:white">BARIS<span style="color:#ec8f49">/</span>ALIM OGLOU</h1>
+        <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+      </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section" data-anchor="DIENSTLEISTUNGEN">
+      <div class="card">
+        <img class="baris" src="assets/img/baris.png">
+        <div class="card-content">
+        <h1 class="wow fadeInDown" data-wow-delay="0.2s" style="font-size: 44px;">Was ich Anbiete!</h1>
+        <p class="wow fadeInDown" data-wow-delay="0.2s" style="font-size: 32px;">
+-Versicherungen jeglicher Art.<br>
+-Kfz Zulassungsdienst<br>
+-Immobilien.<br>
+-Cybersecurity.<br>
+-Social Media Management.<br>
+-Finanzierungen.<br>
+-Strom und Gas. <br>
+-Pflegeantragsunterschtützung.<br>
+Und vieles mehr!</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+   <div class="section" data-anchor="KONTAKT">
+  <div class="content wow fadeInDown" data-wow-delay="0.2s">
+    <h1>KONTAKTIERE MICH</h1>
+    <p>Egal, ob du mit mir zusammenarbeiten möchtest oder einfach nur Hallo sagen willst – ich würde mich freuen, von dir zu hören!</p>
+    <br>
+    <div class="contact-form">
+
+
+          <div id="form-messages"></div>
+          <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+              <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="NACHRICHT" data-error="Minimum of 10 characters" required></textarea>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="hidden">
+              <input type="text" class="form-control" id="human" name="human" placeholder="">
+            </div>
+            <div class="wow fadeInUp" data-wow-delay="1s">
+              <button type="submit" id="submit" name="submit" class="btn btn-lg">SENDEN</button>
+            </div>
+          </form>
+          <br>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+    <!-- begin section -->
+
+    <div class="section fp-auto-height">
+      <div class="footer">
+        <p>KONTAKTE</p>
+        <div class="social-links">
+          <span><a href="https://www.linkedin.com/in/baris-alim-oglou-646847346/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+          <span><a target="_blank" href="https://www.instagram.com/barisalimoglou/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></span>
+        </div>
+      </div>
+    </div>
+    <!-- end section -->
+
+  </div>
+  <!-- end fullpage -->
+</body>
+    <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>
