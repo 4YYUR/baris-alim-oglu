@@ -526,6 +526,11 @@ label {
 
 /* Tablets (≤1024px) */
 @media (max-width: 1024px) {
+    .aboutme {
+  background: url("assets/img/bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
   .card {
     padding: 40px 5%;
     gap: 30px;
@@ -551,6 +556,11 @@ label {
 
 /* Small tablets / large phones (≤768px) */
 @media (max-width: 768px) {
+    .aboutme {
+  background: url("assets/img/bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
   .card {
     flex-direction: column;
     align-items: center;
@@ -587,6 +597,12 @@ label {
 
 /* Phones (≤600px) */
 @media (max-width: 600px) {
+  .aboutme {
+  background: url("assets/img/bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
   .nav-brand img {
     width: 40px;
   }
@@ -605,16 +621,16 @@ label {
   }
 
   .card-content h1 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .card-content p {
-    font-size: 0.95rem;
-    line-height: 1.6em;
+    font-size: 0.8rem;
+    line-height: 1.3em;
   }
 
   .baris {
-    width: 90%;
+    width: 70%;
   }
 
   #submit {
@@ -624,6 +640,11 @@ label {
 
 /* Small phones (≤400px) */
 @media (max-width: 400px) {
+    .aboutme {
+  background: url("assets/img/bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
   .content {
     max-width: 90%;
     padding: 0 10px;
