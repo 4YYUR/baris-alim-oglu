@@ -520,3 +520,128 @@ label {
   border-radius: 4px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
+
+
+/* ========== RESPONSIVE ENHANCEMENTS ========== */
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .card {
+    padding: 40px 5%;
+    gap: 30px;
+  }
+
+  .baris {
+    width: 45%;
+  }
+
+  .card-content h1,
+  .card-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .card-content p {
+    font-size: 1rem;
+  }
+
+  .nav-links a {
+    font-size: 26px;
+  }
+}
+
+/* Small tablets / large phones (≤768px) */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .baris {
+    width: 85%;
+    margin: 20px 0;
+  }
+
+  .card-content {
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .card-content h1,
+  .card-content h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .nav-links a {
+    font-size: 24px;
+  }
+
+  .fa-chevron-down {
+    bottom: 20px;
+  }
+}
+
+/* Phones (≤600px) */
+@media (max-width: 600px) {
+  .nav-brand img {
+    width: 40px;
+  }
+
+  .fa-bars {
+    display: block !important;
+    font-size: 24px;
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .card-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .card-content p {
+    font-size: 0.95rem;
+    line-height: 1.6em;
+  }
+
+  .baris {
+    width: 90%;
+  }
+
+  #submit {
+    width: 100%;
+  }
+}
+
+/* Small phones (≤400px) */
+@media (max-width: 400px) {
+  .content {
+    max-width: 90%;
+    padding: 0 10px;
+  }
+
+  .aboutme h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .nav-links a {
+    font-size: 22px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+}
