@@ -14,4 +14,4 @@ and more.
 
 The design emphasizes responsiveness and elegant animations for a smooth user experience.
 # contact
-ayyur@mailhaven.su
+a@ayyur.xyz
