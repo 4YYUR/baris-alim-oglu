@@ -521,6 +521,12 @@ label {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
+.fa-bars,
+.nav-screen {
+  display: none !important;
+}
+
+
 
 /* ========== RESPONSIVE ENHANCEMENTS ========== */
 
@@ -607,14 +613,14 @@ label {
     width: 40px;
   }
 
-  .fa-bars {
-    display: block !important;
-    font-size: 24px;
-  }
-
+@media (max-width: 500px) {
   .header-links {
-    display: none;
+    display: block;
+    text-align: right;
+    background-color: #060030;
   }
+}
+
 
   h1 {
     font-size: 26px;
@@ -655,7 +661,7 @@ label {
   }
 
   p {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .nav-links a {
