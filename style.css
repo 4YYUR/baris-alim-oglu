@@ -628,16 +628,20 @@ label {
 
   .card-content h1 {
     font-size: 1.2rem;
+    margin-top: -7%;
   }
 
   .card-content p {
-    font-size: 0.8rem;
-    line-height: 1.3em;
+    font-size: 0.9rem;
+    line-height: 1em;
   }
 
   .baris {
-    width: 70%;
+    width: 60%;
+    margin-top: 30%;
   }
+
+  
 
   #submit {
     width: 100%;
